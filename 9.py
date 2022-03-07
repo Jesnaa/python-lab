@@ -1,11 +1,6 @@
-def word_count(str):
-    counts= {dict}
-    words=str.split()
-
-  for word in words:
-        if word in counts:
-            counts[word] += 1
-        else:
-            counts[word] = 1
-
-        print( word_count('jomol come go go jomol same same same.'))
+a = input("Enter the string:")
+count = 0
+for i in range(0,len(a)):
+    if(a[i]!=''):
+       count =count +1
+print("Total number of characters in a string:"+str(count))
